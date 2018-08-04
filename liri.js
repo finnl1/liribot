@@ -1,6 +1,6 @@
 require("dotenv").config();
 
-var client = new Twitter(keys.Twitter);
+var client = new twitter(keys.Twitter);
 
 myTweets = function() {
     console.log(client);
